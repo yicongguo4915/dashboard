@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_style("white")
 import streamlit as st
-from PIL import Image
 import pydeck as pdk
 # streamlit run /Users/yicong/Desktop/streamlit/trash.py
 
@@ -150,9 +149,6 @@ def histogram(data, figsize=(5,5)):
 # main function/ construct user interfaces
 def main():
     st.title("California Wildfire Analysis")
-
-    img = Image.open("wildfire.jpeg")
-    st.image(img, width=650)
 
     st.subheader("Incidents and Trends Summary")
     summarytable(fire)
