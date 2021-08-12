@@ -1,5 +1,5 @@
 # Default
-talk to talk, walk to walk 
+interactive dashboards, deployed using streamlit
 
 
 
